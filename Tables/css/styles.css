@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+nav{
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    background-color: crimson;
+    border: 2px solid crimson;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 15px;
+    margin: 20px;
+}
+
+nav a:hover {
+    color: crimson;
+    background-color: white;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+header h1 {
+    color: crimson;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.container{
+    width: 80%;
+    border: 3px solid crimson;
+    margin: 20px auto;
+    overflow: auto;
+    padding: 15px;
+}
+
+.tblSpan, .tblStyles,.tblCal{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.tblSpan{
+    height: 400px;
+}
+.tblStyles,.tblCal{
+    border-collapse: collapse;
+}
+
+.tblStyles th, .tblCal th{
+    background-color: rgb(173, 99, 86);
+    color: black;
+    padding: 5px;
+}
+.tblStyles tr:hover{
+ background-color: burlywood;
+}
+
+.tblStyles td{
+    text-align: center;
+    min-height: 25px;
+    min-width: 80px;
+}
+.tblStyles td, 
+.tblSpan th, .tblSpan tr, .tblSpan td {
+    border: 1px solid black;
+}
+
+.tblCal td{
+    height: 70px;
+    border: 1px solid burlywood;
+    text-align: right;
+    vertical-align: top;
+    font-weight: bold;
+    width:14%;
+    padding-right: 2px;
+    padding-top: 2px;
+}
+
+h2{
+text-align: center;
+}
+
+.weekend{
+    background-color: hsla(34, 57%, 70%, 0.664);
+}
