@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+:root{
+    --primary-background:#BCB8B1;
+    --secondary-background:#59544B;
+    --primary-text:#03045E;
+    --secondary-text: #347FC4;
+    --border-color: #36311f;
+    --primary-font: Host 
+
+}
+body {
+    font-family: 'Playfair Display' , sans-serif;
+    line-height: 1.5;
+    font-size: 1.2em;
+    background-color: var(--primary-background);
+    color: var(--secondary-background);
+    
+}
+nav{
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    background-color: var(--secondary-background);
+    border: 2px solid var(--secondary-background);
+    border-radius: 10px;
+    color: white;
+    padding: 5px 15px;
+    margin: 20px;
+    border: 3px solid var(--border-color);
+}
+
+.main-container {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.left-containers {
+    float: left; 
+    width: 65%; 
+    margin-right: 20px; 
+}
+
+.container{
+    font-family: 'Host Grotesk', sans-serif;
+    font-size: larger;
+    background: var(--secondary-background);
+    padding: 20px;
+    border-radius: 20px;
+    border: 5px solid var(--border-color) ;
+    margin-top: 20px;
+    text-align: center;
+    color: var(--secondary-text);
+}
+
+.container-2 {
+    font-family: 'Host Grotesk', sans-serif;
+    font-size: xx-large;
+    background: var(--secondary-background);
+    padding: 20px;
+    border-radius: 20px;
+    border: 5px solid var(--border-color);
+    margin-top: 20px;
+    text-align: left;
+    color: var(--secondary-text);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-2.small{
+    font-size: x-large;
+}
+
+.container-2.right {
+    float: right;
+    width: 30%;
+    margin: 20px;
+}
+
+.container-3{
+    font-family: 'Host Grotesk', sans-serif;
+    font-size: larger;
+    background: var(--secondary-background);
+    padding: 20px;
+    border-radius: 20px;
+    border: 5px solid var(--border-color) ;
+    margin-top: 40px;
+    color: var(--secondary-text);
+    width: fit-content;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-left: 450px;
+}
+
+.container-4{
+    font-family: 'Host Grotesk', sans-serif;
+    font-size: larger;
+    background: var(--secondary-background);
+    padding: 20px;
+    border-radius: 20px;
+    border: 5px solid var(--border-color) ;
+    margin-top: 40px;
+    color: var(--secondary-text);
+    width: fit-content;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-left: 850px;
+}
+
+.container-3 img {
+    width: 75%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+    margin: 0 auto; 
+}
+
+
+.img-text-wrapper {
+    display: flex; 
+    align-items: center; 
+}
+
+.img-right {
+    margin-left: 20px;
+}
+
+.img-left {
+    margin-right: 20px; 
+    padding-right: 10px;
+}
+
+
+
+.text-right, .text-left {
+    flex: 1; 
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    min-height: 80px;
+    text-align: center;
+}
+
+h2 {
+    color: var(--secondary-text);
+    text-align: center;
+    margin: 20px;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    color:var(--secondary-text);
+}
+
+
+.grid-container { 
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+    background: var(--secondary-background);
+    margin: 10px auto;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 5px solid var(--border-color);
+    margin-top: 20px;
+}
+
+.grid-container>div> {
+    background-color: var(--secondary-background);
+    padding: 20px 0;
+    min-height: 100px;
+    width: 100%;
+}
+
+.grid-container>div>img {
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+    cursor: pointer;
+}
+
+#large {
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: var(--secondary-background);
+    width: 60%;
+    margin: 10px auto;
+    display: block;
+    border-radius: 20px;
+    border: 5px solid var(--border-color);
+}
